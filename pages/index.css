@@ -1,10 +1,11 @@
 @import url(../Inter-fonts/inter.css);
 
 .page {
-  padding: 0 48px;
+  padding: 0 148px;
   background-color: #2A2C2F;
   color: white;
   max-width: 1024px;
+  margin: 0 auto;
 }
 
 
@@ -79,6 +80,56 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   align-self: flex-start;
+  margin: 8px 0 0;
 }
 
+.intro__list {
+  list-style: none;
+  padding: 0;
+  margin: 32px 0 0;
+  max-width: fit-content;
+}
 
+.intro__list-item {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__list-item_span {
+  font-weight: normal;
+}
+
+.intro {
+  max-width: 690px;
+  margin: 92px 0 0;
+}
+
+.intro__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 0;
+}
+
+.intro__subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  margin: 40px 0 0;
+}
+
+.intro__paragraph {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 32px 0 0;
+}
