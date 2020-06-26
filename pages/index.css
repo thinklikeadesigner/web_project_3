@@ -1,9 +1,12 @@
+@import url(../Inter-fonts/inter.css);
+
 .page {
-    margin: 0 auto;
-    padding: 0 48px;
-    background-color: #2A2C2F;
-    max-width: 1184px;
+  padding: 0 48px;
+  background-color: #2A2C2F;
+  color: white;
+  max-width: 1024px;
 }
+
 
 .header {
  display: flex;
@@ -15,15 +18,67 @@
 .header__lang-links {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
 
 
 }
 
 .header__lang-link {
-    font-size: 24px;
-    line-height: 28px;
-    color: white;
-    margin-left: 18px;
-    text-decoration: none;
-
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 18px;
+  text-decoration: none;
+  color: white;
 }
+.header__lang-link:hover {
+  text-decoration: underline;
+}
+
+
+.lead {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lead__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  max-width: 720px;
+  margin: 50px 0 0 0;
+}
+
+.lead__subtitle {
+  margin: 32px 0 0 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  max-width: 620px;
+  text-align: center;
+}
+
+.lead__image {
+  margin: 56px 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+.lead__caption {
+  font-family:'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+
+
