@@ -1,29 +1,162 @@
+@import url('../inter/inter.css');
+
 .page {
-    margin: 0 auto;
-    padding: 0 48px;
-    background-color: #2A2C2F;
-    max-width: 1184px;
+  padding: 0;
+  background-color: #2A2C2F;
+  color: white;
+  max-width: 320px;
+  margin: 0 auto;
+  font-family: 'Inter';
 }
+
 
 .header {
  display: flex;
  flex-direction: row;
  justify-content: space-between;
- padding: 34px 0 0 0;
+ padding: 20px 16px 0;
+}
+
+.header__logo {
+  margin: 0;
+  height: 36px;
+  width: 156px;
 }
 
 .header__lang-links {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
 
 
 }
 
 .header__lang-link {
-    font-size: 24px;
-    line-height: 28px;
-    color: white;
-    margin-left: 18px;
-    text-decoration: none;
+  font-size: 24px;
+  line-height: 1.17;
+  margin-left: 18px;
+  text-decoration: none;
+  color: white;
+}
+.header__lang-link:hover {
+  text-decoration: underline;
+}
+
+
+.lead {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 984px;
+}
+
+.lead__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: calc(44/40);
+  text-align: center;
+  max-width: 720px;
+  margin: 50px 0 0 0;
+  padding: 0 16px 0;
+}
+
+.lead__subtitle {
+  margin: 16px 0 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: calc(20/16);
+  max-width: 620px;
+  text-align: center;
+  padding: 0 16px 0;
+}
+
+.lead__image {
+  margin:40px 0 0 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.lead__caption {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  align-self: flex-start;
+  margin: 8px 0 0;
+  padding: 0 16px 0;
+}
+
+.intro__list {
+  list-style: none;
+  padding: 0;
+  margin: 32px 0 0;
+  max-width: fit-content;
+}
+
+.intro__list-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__list-item_span {
+  font-weight: normal;
+}
+
+.intro {
+  padding: 0 16px;
+}
+
+.intro__title {
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: calc(35/32);
+  margin: 64px 0 0 0;
+}
+
+.intro__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  margin: 40px 0 0;
+}
+
+.intro__paragraph {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 32px 0 0;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+  padding: 0 16px;
+  margin: 0;
+}
+
+.photo-grid {
+  display: grid;
+  gap: 16px;
+  width: 288px;
+  margin: 64px 0 0;
+}
+
+.photo-grid__item {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 
 }
+
