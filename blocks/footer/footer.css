@@ -1,0 +1,30 @@
+
+@import url('./__copyright/footer__copyright.css');
+@import url('./__link/footer__link.css');
+@import url('./__links/footer__links.css');
+
+.footer {
+  padding: 0 16px 24px;
+
+}
+
+@media screen and (min-width: 530px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px 24px;
+  }
+}
+
+
+@media screen and (min-width: 900px) {
+  .footer {
+    padding: 0 48px 24px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .footer {
+    padding: 0 0 24px;
+  }
+}

@@ -1,0 +1,20 @@
+.section__image {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 530px) {
+  .section__image {
+    padding: 0 14px 0 24px;
+    width: calc(100% - 38px);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .section__image {
+    padding: 0 16px 0 48px;
+    width: calc(100% - 64px);
+  }
+}
+

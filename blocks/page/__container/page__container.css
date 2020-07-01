@@ -1,0 +1,12 @@
+.page__container {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 1140px) {
+  .page__container {
+    padding: 0 48px 0;
+
+  }
+  
+}
