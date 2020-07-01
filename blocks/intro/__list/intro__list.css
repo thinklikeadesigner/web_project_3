@@ -1,0 +1,15 @@
+
+
+.intro__list {
+  list-style: none;
+  padding: 0;
+  margin: 32px 0 0;
+  max-width: fit-content;
+}
+
+@media screen and (min-width: 530px) {
+  .intro__list {
+    padding: 0;
+  }
+}
+

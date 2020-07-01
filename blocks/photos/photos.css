@@ -1,0 +1,18 @@
+.photos {
+    display: flex;
+    justify-content: center;
+    padding: 64px 16px calc(64px - 32px);
+    margin: 0;
+  }
+  
+  @media screen and (min-width: 530px) {
+    .photos {padding: 88px 24px 40px;
+  }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .photos {padding: 92px 48px calc(92px - 80px);
+  }
+  }
+  
+  
