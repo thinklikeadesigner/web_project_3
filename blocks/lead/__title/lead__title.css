@@ -9,7 +9,7 @@
   margin: 0;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 700px) {
   .lead__title {
     max-width: 720px;
     font-size: 96px;
