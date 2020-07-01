@@ -1,0 +1,31 @@
+
+.section__url {
+  display: none;
+  color: #AAAAAA;
+  font-size: 12px;
+  line-height: 1;
+  text-decoration: none;
+  width: 100%;
+}
+
+
+
+
+
+@media screen and (min-width: 530px) {
+  .section__url {
+    display: block;
+
+    
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .section__url {
+    line-height: 1.7;
+    font-weight: 500;
+  }
+
+}
+
+

@@ -1,0 +1,13 @@
+.section__websites {
+  display: none;
+}
+
+@media screen and (min-width: 530px) {
+  .section__websites {
+    display: block;
+    padding: 0 0 48px 14px;
+    width: 100%;
+  }
+}
+
+

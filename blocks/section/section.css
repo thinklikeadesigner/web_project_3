@@ -1,0 +1,11 @@
+@import url('./__image/section__image.css');
+@import url('./__link/section__link.css');
+@import url('./__paragraph/section__paragraph.css');
+@import url('./__title/section__title.css');
+@import url('./__url/section__url.css');
+@import url('./__websites/section__websites.css');
+
+.section {
+    margin: 0;
+    padding: 0;
+}
