@@ -11,7 +11,8 @@
 
 This project is a website that details a bicycle tour across America. The website is responsive, which means it will look good on all mobile and desktop screens. 
 
-** Project Description **
+**Project Description**
+
 I used a design brief from Figma to build this website. I also used grid to organize images on the page, and flex-box to move page elements around. I learned how to use a background image as a link. I also used breakpoints to change font-sizes for different screens, and relative values for element widths and heights so they would be responsive.
 
 **Figma**
