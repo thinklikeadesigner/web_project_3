@@ -22,3 +22,8 @@
    }
  }
  
+ @media screen and (min-width: 1140px) {
+  .header {
+    padding: 34px 148px 0;
+  }
+}

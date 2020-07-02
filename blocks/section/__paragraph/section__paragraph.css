@@ -27,3 +27,13 @@
     line-height: calc(30/18);
   }
 }
+
+
+@media screen and (min-width: 1140px) {
+  .section__paragraph {
+    padding: 0 148px 24px 20px;
+    width: calc(100% - 168px);
+    font-size: 18px;
+    line-height: calc(30/18);
+  }
+}

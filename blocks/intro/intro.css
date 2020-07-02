@@ -21,3 +21,8 @@
   }
 }
 
+@media screen and (min-width: 1140px) {
+  .intro {
+    padding: 0 148px 0;
+  }
+}
