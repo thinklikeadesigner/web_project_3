@@ -8,11 +8,6 @@
   flex-direction: column;
 }
 
-
-.footer__link:hover {
-  opacity: 0.8;
-}
-
 @media screen and (min-width: 530px) {
   .footer__links {
     flex-direction: row;
