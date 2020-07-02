@@ -13,3 +13,10 @@
     padding: 0 24px;
   }
 }
+
+
+@media screen and (min-width: 900px) {
+  .lead__caption{
+    padding: 0;
+  }
+}
