@@ -4,6 +4,7 @@
   color: #AAAAAA;
   font-size: 12px;
   line-height: 1;
+  letter-spacing: 0.2em;
   text-decoration: none;
   width: 100%;
 }
@@ -16,17 +17,11 @@
   .section__url {
     display: block;
 
+
     
   }
 }
 
-@media screen and (min-width: 900px) {
-  .section__url {
-    line-height: 1.7;
-    font-weight: 500;
-  }
-
-}
 
 
 
