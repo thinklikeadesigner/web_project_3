@@ -13,7 +13,7 @@ This project is a website that details a bicycle tour across America. The websit
 
 **Project Description**
 
-I used a design brief from Figma to build this website. I also used grid to organize images on the page, and flex-box to move page elements around. I learned how to use a background image as a link. I also used breakpoints to change font-sizes for different screens, and relative values for element widths and heights so they would be responsive.
+I used a design brief from Figma to build this website. I also used grid to organize images on the page, and flex-box to move page elements around. I learned how to use a background image as a link. I also used breakpoints to change font-sizes for different screens, and set relative values for element widths and heights so they would be responsive.
 
 **Figma**
 
