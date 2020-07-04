@@ -33,6 +33,12 @@
   }
 }
 
+@media screen and (min-width: 2400px) {
+  .cover__link {
+    min-height: 1140px;
+  }
+}
+
 .cover__link:after {
   content: "";
   width: 100%;
