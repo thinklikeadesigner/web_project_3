@@ -1,17 +1,19 @@
 .photos {
-    display: flex;
-    justify-content: center;
-    padding: 64px 16px calc(64px - 32px);
-    margin: 0;
+    margin: 64px 16px calc(64px - 48px);
+    padding: 0;
   }
   
   @media screen and (min-width: 530px) {
-    .photos {padding: 88px 24px 40px;
+    .photos {
+      margin: 88px 24px 0;
+      padding: 0 0 calc(88px - 72px);
   }
   }
   
   @media screen and (min-width: 900px) {
-    .photos {padding: 92px 48px calc(92px - 80px);
+    .photos {
+      margin: 92px 48px 0;
+      padding: 0 0 calc(92px - 80px)
   }
   }
   

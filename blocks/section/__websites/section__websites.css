@@ -4,23 +4,9 @@
 
 @media screen and (min-width: 530px) {
   .section__websites {
-    display: block;
-    padding: 0 0 48px 14px;
+    display: grid;
+    grid-area: web;
+    align-self: self-end;
     width: 100%;
   }
 }
-
-@media screen and (min-width: 530px) {
-  .section__websites {
-    padding: 0 0 48px 16px;
-  }
-}
-
-@media screen and (min-width: 530px) {
-  .section__websites {
-    padding: 0 0 48px 20px;
-  }
-}
-
-
-

@@ -1,10 +1,5 @@
 .section__link {
   display: none;
-  font-size: 18px;
-  line-height: calc(22/18);
-  text-decoration: underline;
-  color: white;
-  width: 100%;
 }
 
 .section__link:hover {
@@ -14,6 +9,10 @@
 @media screen and (min-width: 530px) {
   .section__link {
     display: block;
-    
+    font-size: 18px;
+    line-height: calc(22/18);
+    text-decoration: underline;
+    color: white;
+    width: 100%;
   }
 }

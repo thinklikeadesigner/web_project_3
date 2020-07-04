@@ -9,10 +9,12 @@
   line-height: 1;
   text-decoration: none;
   color: white;
-  padding: 0 0 32px;
+  margin: 0 0 32px;
+  padding: 0;
   display: flex;
 
 } 
+
 
 .footer__link:hover {
   opacity: 0.8;

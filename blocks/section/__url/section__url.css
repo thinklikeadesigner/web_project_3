@@ -1,12 +1,7 @@
 
 .section__url {
   display: none;
-  color: #AAAAAA;
-  font-size: 12px;
-  line-height: 1;
-  letter-spacing: 0.2em;
-  text-decoration: none;
-  width: 100%;
+  
 }
 
 
@@ -16,9 +11,12 @@
 @media screen and (min-width: 530px) {
   .section__url {
     display: block;
-
-
-    
+    color: #AAAAAA;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    width: 100%;    
   }
 }
 

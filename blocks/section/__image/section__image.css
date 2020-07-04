@@ -1,26 +1,17 @@
 .section__image {
-  margin: 0;
+  margin: 0 0 32px;
   padding: 0;
+  display: block;
   width: 100%;
 }
 
 @media screen and (min-width: 530px) {
   .section__image {
-    padding: 0 14px 0 24px;
-    width: calc(100% - 38px);
-  }
-}
+    display: grid;
+    grid-area: image;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 
-@media screen and (min-width: 900px) {
-  .section__image {
-    padding: 0 16px 0 48px;
-    width: calc(100% - 64px);
-  }
-}
-
-@media screen and (min-width: 1140px) {
-  .section__image {
-    padding: 0 20px 0 148px;
-    width: calc(100% - 168px);
   }
 }

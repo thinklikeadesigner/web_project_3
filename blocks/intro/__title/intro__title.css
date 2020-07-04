@@ -14,14 +14,11 @@
     }
   }
   
-  @media screen and (min-width: 875px) {
-    .intro__title {
-      margin: 92px 0 0;
-    }
-  }
+ 
   @media screen and (min-width: 900px) {
     .intro__title {
       max-width: 690px;
+      margin: 92px 0 0;
     }
   }
   

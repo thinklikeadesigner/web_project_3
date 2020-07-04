@@ -1,0 +1,13 @@
+.section__text {
+    margin: 0 16px;
+
+}
+
+@media screen and (min-width:530px)
+{
+    .section__text {
+        grid-area: paragraph;
+        margin: 0;
+        padding: 0;
+    }
+}
